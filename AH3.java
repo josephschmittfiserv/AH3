@@ -4,7 +4,7 @@ public class AH3 {
     public static void fizzbuzz(int rand) {
         if (rand == 0) return;
 
-        if (rand % 5 == 0 && rand % 3 == 0) System.out.println("FizzBuzz");
+        if (rand % 5 != 0 && rand % 3 == 0) System.out.println("Fizz");
         else if (rand % 5 == 0 && rand % 3 != 0) System.out.println("Buzz");
         else if (rand % 3 == 0 && rand % 5 == 0) System.out.println("FizzBuzz");
         else System.out.println(rand);
