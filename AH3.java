@@ -13,7 +13,7 @@ public class AH3 {
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter in a number to see the fizzbuzz: ");
+        System.out.print("Enter in a number to see the fizzbuzz: ");
         int n = sc.nextInt();
 
         fizzbuzz(n);
