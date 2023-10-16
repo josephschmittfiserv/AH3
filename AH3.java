@@ -6,7 +6,7 @@ public class AH3 {
 
         if (rand % 5 != 0 && rand % 3 == 0) System.out.println("Fizz");
         else if (rand % 5 == 0 && rand % 3 != 0) System.out.println("Buzz");
-        else if (rand % 3 == 0 && rand % 5 == 0) System.out.println("FizzBuzz");
+        else if (rand % 5 == 0 && rand % 3 == 0) System.out.println("FizzBuzz");
         else System.out.println(rand);
 
         fizzbuzz(rand - 1);
